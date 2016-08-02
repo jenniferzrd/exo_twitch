@@ -1,0 +1,241 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Roboto;
+}
+header{
+  width: 100%;
+  background-color: #1D1742;
+  height: 450px;
+  text-align: center;
+}
+#nav{
+  margin: 0;
+  background-color: white;
+  color: grey;
+  padding: 15px;
+  text-align: center
+
+}
+#nav li{
+  display: inline;
+  text-decoration: none;
+  padding: 10px;
+}
+.ul1 {
+  margin-left: 400px;
+  text-align: center;
+}
+#logo{
+  width: 138px;
+  height: 40px;
+  position: absolute;
+  left: 170px;
+}
+#nav a{
+  text-decoration: none;
+  color:grey;
+}
+#nav a:hover{
+  text-decoration: none;
+  color: #F75B68;
+  border-bottom: #F75B68 solid 5px;
+  padding-bottom: 26px;
+  text-align: justify;
+}
+header h1{
+  color: white;
+  font-size: 40px;
+}
+header h2{
+  color: #F75B68;
+  font-size: 18px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+.button1{
+  font-size: 16px;
+  color: #fff;
+  background: #1D1742;
+  letter-spacing: 0.4px;
+  border-radius: 100px;
+  border: 2px solid #F55668;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 228px;
+  height: 62px;
+  text-decoration: none !important;
+  border: 2px solid #F55668;
+  font-weight: bold;
+  transition: 1s;
+}
+.button1:hover{
+  background-color: #F75B68;
+  color:black;
+}
+
+article {
+
+  padding-top: 50px;
+  background-color: #ECF6F5;
+
+}
+
+#send {
+  color: #1D1742;
+  font-size: 40px;
+
+}
+
+#citation_body {
+
+  color: #F75B68;
+  font-size: 18px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -30px;
+
+}
+.grille{
+
+}
+.politicien{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.tutu {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  padding: 60px;
+}
+.tutu .description {
+  background: rgb(247,91,104); /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(247,91,104,0.6) 3%, rgba(247,91,104,0.6) 60%, rgba(244,63,75,0.8) 60%, rgba(244,63,75,0.8) 78%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(247,91,104,0.6) 3%,rgba(247,91,104,0.6) 60%,rgba(244,63,75,0.8) 60%,rgba(244,63,75,0.8) 78%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, rgba(247,91,104,0.6) 3%,rgba(247,91,104,0.6) 60%,rgba(244,63,75,0.8) 60%,rgba(244,63,75,0.8) 78%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f75b68', endColorstr='#f43f4b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  width: 200px;
+  height: 200px;
+  visibility: hidden;
+  position: absolute;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.tutu:hover .description {
+  visibility: visible;
+}
+
+.fck{
+  margin-top: 90px;
+}
+
+
+#video {
+
+  padding: 0;
+}
+
+h3 {
+
+  color: #F75B68;
+  font-size: 25px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 50px;
+
+}
+
+h4 {
+
+  color: #F75B68;
+  font-size: 40px;
+  font-family: Roboto;
+  font-weight: bold;
+  margin-top: -15px;
+
+}
+
+#paris {
+
+  color: #1D1742;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: -70px;
+
+}
+
+.grey_text {
+
+  color: grey;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 270px;
+  margin-right: 174px;
+
+}
+
+.button2{
+  font-size: 16px;
+  color: #F55668;
+  background: white;
+  letter-spacing: 0.4px;
+  border-radius: 100px;
+  border: 2px solid #F55668;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 228px;
+  height: 62px;
+  text-decoration: none !important;
+  border: 2px solid #F55668;
+  font-weight: bold;
+  transition: 1s;
+}
+.button2:hover{
+  color: white;
+  background-color:#F55668;
+
+}
+.article{
+  background-color: white;
+}
+.article2{
+  background-color: #1D1742;
+  width: 1288px;
+  height: 700px;
+}
+.img2{
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.img1{
+  margin-top: 40px;
+}
+
+
+
+
+
+#nav2 li{
+  display: inline;
+  text-decoration: none;
+  padding: 20px;
+}
+#nav2 a{
+  text-decoration: none;
+  color: grey;
+}
+#nav2 a:hover{
+  color: #F55668;
+}
